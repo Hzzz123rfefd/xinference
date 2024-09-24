@@ -1,0 +1,31 @@
+{
+    "auth_config": {
+        "algorithm": "HS256",
+        "secret_key": "6fd7ecaaf1d8252537a5add924efc0cbbd25317264199ea5cf1b56fe43d37add",
+        "token_expire_in_minutes": 30
+    },
+    "user_config": [
+        {
+            "username": "cz-admin",
+            "password": "ClickZettaAdmin001",
+            "permissions": [
+                "admin"
+            ],
+            "api_keys": [
+                "sk-ClickZetta001",
+                "sk-ClickZetta002"
+            ]
+        },
+        {
+            "username": "cz-user",
+            "password": "ClickZettaUser001",
+            "permissions": [
+                "models:list",
+                "models:read"
+            ],
+            "api_keys": [
+                "sk-ClickZetta007"
+            ]
+        }
+    ]
+}
