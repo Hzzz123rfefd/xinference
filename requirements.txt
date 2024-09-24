@@ -1,0 +1,4 @@
+xinfernece==0.15.0
+sentencepiece
+sentence-transformers
+protobuf
