@@ -5,13 +5,13 @@ Official documents: https://inference.readthedocs.io/zh-cn/latest/
 Operating System: Linux
 ```bash
 conda create -n xinfernece python=3.10
-conda activate xinfernece
+conda activate xinference
 git clone https://github.com/Hzzz123rfefd/xinference.git
-cd xinfernece
+cd xinference
 pip install -r requirements.txt
 ```
 ## Usage
-### start xinfernece service
+### start xinference service
 ```bash
 xinference-local --host 0.0.0.0 --port 9997 
 ```
