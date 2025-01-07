@@ -1,4 +1,4 @@
-xinfernece==0.15.0
+xinference==1.1.1
 sentencepiece
 sentence-transformers
 protobuf
